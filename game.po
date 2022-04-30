@@ -389,17 +389,17 @@ msgstr "저장된 복사 내용 보기"
 #v1.4.15
 msgctxt "signal_edit_invalid_track"
 msgid "This signal is still functional but it is not allowed on this kind of track starting from version 1.4. Some train maneuvers might be disabled in this track. Move it to a different track."
-msgstr "버전 1.4 이후로 해당 신호는 이 선로 종류에 사용할 수 없습니다(아직 작동합니다). 일부 열차 기동이 선로에서 올바르게 작동하지 않을 수 있습니다. 신호를 다른 곳으로 옮겨 주세요."
+msgstr "버전 1.4 이후로 해당 신호는 여전히 작동하지만 이 선로 종류에 사용할 수 없습니다. 일부 열차 기동이 선로에서 올바르게 작동하지 않을 수 있습니다. 신호를 다른 곳으로 옮겨 주세요."
 
 #v1.4.15
 msgctxt "signal_edit_plat_stop_obsolete"
 msgid "This signal is still functional but it has been obsoleted. Some train maneuvers might be disabled in this track."
-msgstr "해당 신호는 아직 동작하지만 구 버전의 규칙을 따릅니다. 일부 열차 기동이 올바르게 작동하지 않을 수 있습니다."
+msgstr "해당 신호는 여전히 동작하지만 구 버전의 규칙을 따릅니다. 일부 열차 기동이 올바르게 작동하지 않을 수 있습니다."
 
 #v1.4.15
 msgctxt "signal_edit_simple_block_obsolete"
 msgid "This signal is still functional but it has been obsoleted by path signals. Replace your simple block signaling with path signals."
-msgstr "해당 신호는 아직 동작하지만 경로 신호기로 대체되었습니다. 폐색 신호기를 경로 신호기로 교체해 주세요."
+msgstr "해당 신호는 여전히 동작하지만 경로 신호기로 대체되었습니다. 폐색 신호기를 경로 신호기로 교체해 주세요."
 
 #v1.4.15
 msgctxt "station_platform_auto_name"
@@ -609,7 +609,7 @@ msgstr "보상"
 #v1.1.37
 msgctxt "accounting_pax_intervention"
 msgid "Compen.: intervention"
-msgstr "보상: 기차 재배치"
+msgstr "보상: 열차 재배치"
 
 #v1.1.37
 msgctxt "accounting_pax_lost"
@@ -619,7 +619,7 @@ msgstr "보상: 잃음"
 #v1.1.72
 msgctxt "accounting_pax_never_serviced"
 msgid "Never serviced"
-msgstr "서비스하지 않음"
+msgstr "운행하지 못함"
 
 #v1.1.72
 msgctxt "accounting_pax_new"
@@ -1154,7 +1154,7 @@ msgstr "모체 선택"
 #v1.2.22
 msgctxt "constraint_remove"
 msgid "Remove constraint"
-msgstr "Remove constraint"
+msgstr "제한 제거"
 
 #v1.2.22
 msgctxt "constraint_t"
@@ -1459,12 +1459,12 @@ msgstr "새 선로 분기를 보려면 기존 선로 근처에 마우스 커서�
 #v1.2.22
 msgctxt "editor_tip_cont_alt"
 msgid "Alt to toggle the parallel track side"
-msgstr "Alt to toggle the parallel track side"
+msgstr "Alt를 눌러 선로의 통행방식을 교차시키세요."
 
 #v1.2.29
 msgctxt "editor_tip_cont_ctrl"
 msgid "Hold Ctrl to line up track with its previous track segment."
-msgstr "Hold Ctrl to line up track with its previous track segment."
+msgstr "Ctrl을 눌러 이전에 설정한 선로 끝의 방향을 따라 직선 선로를 만드세요."
 
 #v1.1.31
 msgctxt "editor_tip_cont_esc"
@@ -2354,7 +2354,7 @@ msgstr "{}, 목적지:"
 #v1.2.22
 msgctxt "lineeditor_auto_value"
 msgid "Auto"
-msgstr "Auto"
+msgstr "자동"
 
 #v1.2.22
 msgctxt "lineeditor_basics"
@@ -2379,12 +2379,12 @@ msgstr "색상: "
 #v1.2.22
 msgctxt "lineeditor_cruise_speed"
 msgid "Cruise speed (km/h):"
-msgstr "Cruise speed (km/h):"
+msgstr "운행속도 (km/h):"
 
 #v1.2.22
 msgctxt "lineeditor_cruise_speed_desc"
 msgid "Trains will try to accelerate to and keep this speed while traveling between stops. They may speed up if they are late."
-msgstr "열차는 지정된 속도까지 가속한 후 속도를 일정하게 유지할겁니다. 열차가 지연됐을 경우 기관사가 속도를 더 낼 수도 있습니다."
+msgstr "열차는 지정된 속도까지 가속한 후 속도를 일정하게 유지할 것입니다. 열차가 지연됐을 경우 기관사가 속도를 더 낼 수도 있습니다."
 
 #v1.2.22
 msgctxt "lineeditor_default_timings"
@@ -2474,7 +2474,7 @@ msgstr "열차 참조:"
 #v1.2.22
 msgctxt "lineeditor_reference_train_desc"
 msgid "An internal simulation of this train running on the tracks will be used for calculating the leg times."
-msgstr "An internal simulation of this train running on the tracks will be used for calculating the leg times."
+msgstr "이 노선을 운행하는 열차의 내부 시뮬레이션은 지연 시간을 계산하는데 사용될 수 있습니다."
 
 #v1.2.22
 msgctxt "lineeditor_service_level"
@@ -2819,12 +2819,12 @@ msgstr "JPG 형식 (RGB), 최대 1MB"
 #v1.1.37
 msgctxt "mod_keep_desc"
 msgid "Keep Steamworks description"
-msgstr "Steamworks 설명 유지하기"
+msgstr "창작마당 설명 유지하기"
 
 #v1.1.37
 msgctxt "mod_keep_icon"
 msgid "Keep Steamworks icon"
-msgstr "Steamworks 아이콘 유지하기"
+msgstr "창작마당 아이콘 유지하기"
 
 #v1.1.31
 msgctxt "mod_name"
@@ -2839,7 +2839,7 @@ msgstr "구독한 모드:"
 #v1.1.37
 msgctxt "mod_panel_steamworks"
 msgid "Subscribe to new mods in the Workshop"
-msgstr "Workshop에서 새 모드를 구독하세요"
+msgstr "스팀 창작마당에서 새 모드를 구독하세요"
 
 #v1.1.31
 msgctxt "mod_source"
@@ -2859,7 +2859,7 @@ msgstr "로컬"
 #v1.1.31
 msgctxt "mod_source_steamworks_ugc"
 msgid "Steamworks UGC"
-msgstr "Steamworks UGC"
+msgstr "스팀 창작마당 UGC"
 
 #v1.1.37
 msgctxt "mod_sub_all_not_installed"
@@ -2959,7 +2959,7 @@ msgstr "모드"
 #v1.1.31
 msgctxt "month_april"
 msgid "April"
-msgstr "1월"
+msgstr "4월"
 
 #v1.1.31
 msgctxt "month_august"
@@ -3574,7 +3574,7 @@ msgstr "< 선택 >"
 #v1.2.22
 msgctxt "plat_auto_direction"
 msgid "Auto append direction signals"
-msgstr "Auto añadir señales de dirección única"
+msgstr "자동으로 진로표시기 설치"
 
 #v1.1.31
 msgctxt "platform_n"
@@ -4004,7 +4004,7 @@ msgstr "단순 블록"
 #v1.2.22
 msgctxt "signal_limits_block"
 msgid "Bounds other signals:"
-msgstr "Bounds other signals:"
+msgstr "다른 신호와의 연계:"
 
 #v1.2.22
 msgctxt "signal_limits_block_always"
@@ -4134,7 +4134,7 @@ msgstr "스팀 친구"
 #v1.1.31
 msgctxt "steamworks_id"
 msgid "Steamworks ID:"
-msgstr "Steamworks ID: "
+msgstr "창작마당 ID: "
 
 #v1.1.31
 msgctxt "stop_idx"
@@ -4144,7 +4144,7 @@ msgstr "역 {}"
 #v1.2.22
 msgctxt "stop_leg_full"
 msgid "{0}m in {1} at {2} km/h avg."
-msgstr "{0}m en {1} a {2} km/h media"
+msgstr "{0}m in {1} a {2} km/h 평균"
 
 #v1.2.22
 msgctxt "stop_leg_l"
@@ -4209,7 +4209,7 @@ msgstr "화물"
 #v1.1.58
 msgctxt "tag_bar"
 msgid "Bar"
-msgstr "Bar"
+msgstr "바"
 
 #v1.2.29
 msgctxt "tag_battery"
@@ -4229,7 +4229,7 @@ msgstr "광궤"
 #v1.1.58
 msgctxt "tag_cable"
 msgid "Cable"
-msgstr "Cable"
+msgstr "강삭철도"
 
 #v1.1.58
 msgctxt "tag_cable_car"
@@ -4294,12 +4294,12 @@ msgstr "{}개 태그"
 #v1.1.58
 msgctxt "tag_generator"
 msgid "Generator"
-msgstr "발전기"
+msgstr "발전차"
 
 #v1.1.58
 msgctxt "tag_heritage"
 msgid "Heritage"
-msgstr "상속"
+msgstr "역사적 유산"
 
 #v1.1.58
 msgctxt "tag_high_speed"
@@ -4369,7 +4369,7 @@ msgstr "자기부상"
 #v1.1.58
 msgctxt "tag_metro"
 msgid "Metro"
-msgstr "지하철"
+msgstr "도시철도"
 
 #v1.1.58
 msgctxt "tag_minimum_gauge"
@@ -4399,7 +4399,7 @@ msgstr "새 태그"
 #v1.1.58
 msgctxt "tag_observation"
 msgid "Observation"
-msgstr "Observation"
+msgstr "관람차"
 
 #v1.1.58
 msgctxt "tag_people_mover"
@@ -4414,17 +4414,17 @@ msgstr "개인"
 #v1.1.58
 msgctxt "tag_prototype"
 msgid "Prototype"
-msgstr "프로토타입"
+msgstr "시제기"
 
 #v1.1.58
 msgctxt "tag_push_pull"
 msgid "Push-pull"
-msgstr "Push-pull"
+msgstr "전후동력식(PP)"
 
 #v1.1.58
 msgctxt "tag_railbus"
 msgid "Railbus"
-msgstr "전차"
+msgstr "궤도버스"
 
 #v1.1.58
 msgctxt "tag_regional"
@@ -4479,12 +4479,12 @@ msgstr "탄수차"
 #v1.1.58
 msgctxt "tag_third_rail"
 msgid "Third rail"
-msgstr "Third rail"
+msgstr "제3궤조"
 
 #v1.1.58
 msgctxt "tag_tilting"
 msgid "Tilting"
-msgstr "Tilting"
+msgstr "틸팅"
 
 #v1.1.58
 msgctxt "tag_tram"
@@ -4744,7 +4744,7 @@ msgstr "{0} 량 / {1:.2f}m / {2:.2f}m"
 #v1.1.37
 msgctxt "train_info_dynamics"
 msgid "Dynamics:"
-msgstr "Dinámica:"
+msgstr "가속도 및 추진력:"
 
 #v1.1.31
 msgctxt "train_info_empty_mass"
@@ -4939,7 +4939,7 @@ msgstr "이름: "
 #v1.1.72
 msgctxt "train_new_for_line_name"
 msgid "New train for {}"
-msgstr "Nuevo tren para {}"
+msgstr "{} 에 새 열차 편성"
 
 #v1.1.72
 msgctxt "train_price"
@@ -4949,7 +4949,7 @@ msgstr "열차 가격"
 #v1.1.31
 msgctxt "train_purchase_no_cash"
 msgid "Not enough money for purchase"
-msgstr "구매할수 있는 금액이 충분하지 않습니다."
+msgstr "구매할 수 있는 금액이 충분하지 않습니다."
 
 #v1.1.31
 msgctxt "train_purchase_no_cash_desc"
@@ -5229,12 +5229,12 @@ msgstr "{}(으)로 환승"
 #v1.1.31
 msgctxt "ugc_error_conn"
 msgid "Error while connecting with Steamworks"
-msgstr "Steamworks에 접속하는 데 오류가 발생했습니다"
+msgstr "창작마당에 접속하는 데 오류가 발생했습니다."
 
 #v1.1.31
 msgctxt "ugc_error_logged"
 msgid "Must be logged into Steam to perform this action"
-msgstr "이 작업을 수행하려면 Steam에 로그인해야 합니다"
+msgstr "이 작업을 수행하려면 Steam에 로그인해야 합니다."
 
 #v1.1.31
 msgctxt "ugc_error_priv"
@@ -5334,7 +5334,7 @@ msgstr "신호 고깔"
 #v1.1.31
 msgctxt "view_in_workshop"
 msgid "View in Workshop"
-msgstr "Workshop에서 보기"
+msgstr "창작마당에서 보기"
 
 #v1.1.31
 msgctxt "visibility"
